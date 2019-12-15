@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing:border-box;
+    font-family: 'Montserrat';
+}
+
+
+/*  Header */
+
+
+
+.nav-link{
+    font-weight: 500;
+    font-size: 12px;
+    color: #191919 !important;
+    text-transform: uppercase;
+}
+header .navbar-nav  a.active{
+    color: green !important;
+}
+header .nav-link:hover{
+    color: green !important;
+}
+
+
+/* Section */
+
+section{
+    background: #f5f5f5;
+    padding: 105px 0 100px;
+}
+.contact_info__box h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #171717;
+}
+.contact_info__box p{
+    font-family: 'Nunito Sans';
+    color: #787878;
+    margin: 40px 0;
+    font-size: 16px;
+}
+.contact_info__box ul li{
+    list-style: none;
+    font-family: 'Nunito Sans';
+    color: #787878;
+    font-size: 16px;
+    margin-bottom: 20px ;
+}
+.contact_info__box ul li span{
+    font-weight: 700;
+    color: black;
+}
+
+
+form {
+    width: 100%;
+}
+form input,textarea{
+    margin-bottom: 30px;
+    padding-left: 15px;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-size: 15px;
+}
+form .top input{
+    width: 47%;
+    height: 50px;
+}
+form .bottom input{
+    width: 100%;
+    height: 50px;
+}
+form .bottom textarea{
+    padding-top: 15px ;
+}
+form .bottom button{
+    width: 160px;
+    height: 55px;
+    border: none;
+    color: #ffffff;
+    background: #007d2f;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.image{
+    margin-top: 100px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Footer */
+
+
+footer{
+    background: black;
+    padding: 100px 0;
+    color: #bcbcbc;
+    font-size: 15px;
+}
+footer .info{
+    margin: 20px 0;
+}
+footer .info h4{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+footer .info ul{
+    margin: 0 20px;
+}
+footer .info ul li{
+    list-style: none;
+} 
+footer .info ul li a{
+    color: #bcbcbc;
+    text-decoration: none;
+
+}
+footer .info ul li a:hover{
+    color: #ffffff;
+}
+
+
+
+@media(max-width: 768px){
+
+    form .top{
+        display: flex;
+        flex-direction: column;
+    }
+    form .top input{
+        width: 100%;
+
+    }
+} 
